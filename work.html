@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Barbershop form</title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/style.min.css" rel="stylesheet" media="screen">
+
+  <script>
+    // Маркер работающего javascript
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+
+
+
+</head>
+
+<body>  	
+
+  
+  <header class="page-header">
+    <h1 class="visually-hidden">Барбершоп "Бородинский" - истинно мужская классика</h1>
+    <div class="page-header__logo">
+      <a href="index.html">
+    	  <picture>
+          <source media="(min-width: 1200px" srcset="img/logotype-desktop.svg">
+          <source media="(min-width: 768px" srcset="img/logotype-tablet.svg">
+          <img src="img/logotype-mobile.svg" width="370" height="153" alt="Барбершоп Бородинский" >
+        </picture>
+      </a>
+    </div>
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list">
+     	    <li class="main-nav__item">
+     	      <a href="index.html">Главная</a>
+     	    </li>
+     	    <li class="main-nav__item main-nav__item--active">
+     	      <a>Наши работы</a>
+     	    </li>
+     	    <li class="main-nav__item">
+     	      <a href="form.html">Записаться</a>
+          </li>
+     	    <li class="main-nav__item">
+     	      <a href="">Контакты</a>
+     	    </li>
+     	    <li class="main-nav__item">
+     	      <a href="">HTML Academy</a>
+          </li>
+        </ul>
+        <ul class="main-nav__user-list">
+          <li class="main-nav__user-item">
+            <a class="main-nav__user-login" href="" title="Войти">Вход</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <section class="photo">
+  	<div class="photo__wrapper">
+  		<h1>Наши работы</h1>
+  		<a href="index.html" class="home-page">На главную</a>
+  		<div class="photo__slider">
+  			<div class="photo__main photo__slide-1">
+  				<figure class="photo__client photo__client-1">
+  					<picture>
+  						<source media="(min-width: 1200px)" srcset="img/client1-desk.jpg">
+  						<img src="img/client1-mobile.jpg" alt="Лжепётр">
+  					</picture>
+  					<p class="photo__main-day">Работа месяца</p>
+  					<figcaption class="photo__caption-main">
+  						<h4>Лжепётр Мчиславский</h4>
+  						<p class="photo__text">Где только я ни стригся, но так как делаете это вы &mdash; не умеет никто другой! Еще раз спасибо и до скорого!</p>
+  						<div class="photo__services">
+  							<p class="photo__service photo__scissors">Стрижка</p>
+  							<p class="photo__service photo__shaving">Бритьё</p>
+  							<p class="photo__service photo__mustache">Усы</p>
+  						</div>
+  					</figcaption>
+  				</figure>
+  			</div>
+  			<div class="photo__slide-block">
+  				<div class="photo__slide photo__slide-2">
+  					<figure class="photo__client photo__client-2">
+  						<picture>
+  							<source media="(min-width: 1200px)" srcset="img/client2-desk.jpg">
+  		        			<source media="(min-width: 768px)" srcset="img/client2-tab.jpg">
+  							<img src="img/client2-mobile.jpg" alt="Саша">
+  						</picture>
+  						<figcaption class="photo__caption">
+  							<h4>Саша Мальцев</h4>
+  							<p class="photo__text">Попросил омолодить и омолодили! Кто теперь скажет, что мне 45?</p>
+  							<div class="photo__services">
+  								<p class="photo__service photo__scissors">Стрижка</p>
+  								<p class="photo__service photo__shaving">Бритьё</p>
+  								<p class="photo__service photo__mustache">Усы</p>
+  							</div>
+  						</figcaption>
+  					</figure>
+  				</div>
+  				<div class="photo__slide photo__slide-3">
+  					<figure class="photo__client photo__client-3">
+  						<picture>
+  							<source media="(min-width: 1200px)" srcset="img/client3-desk.jpg">
+  		        	  		<source media="(min-width: 768px)" srcset="img/client3-tab.jpg">
+  							<img src="img/client3-mobile.jpg" alt="Владимир">
+  						</picture>
+  						<figcaption class="photo__caption">
+  							<h4>Владимир Иваныч</h4>
+  							<p class="photo__text">К зимнему сезору &mdash; готов!</p>
+  							<div class="photo__services">
+  								<p class="photo__service photo__scissors">Стрижка</p>
+  								<p class="photo__service photo__shaving">Бритьё</p>
+  								<p class="photo__service photo__mustache">Усы</p>
+  							</div>
+  						</figcaption>
+  					</figure>
+  				</div>
+  				<div class="photo__slide photo__slide-4">
+  					<figure class="photo__client photo__client-4">
+  						<picture>
+  							<source media="(min-width: 1200px)" srcset="img/client4-desk.jpg">
+  		        	  		<source media="(min-width: 768px)" srcset="img/client4-tab.jpg">
+  							<img src="img/client4-mobile.jpg" alt="Винстон">
+  						</picture>
+  						<figcaption class="photo__caption">
+  							<h4>Винстон Синий</h4>
+  							<p class="photo__text">Как только заростаю и волосы начинают мешать видеть &mdash; бегом в Бородинский!</p>
+  							<div class="photo__services">
+  								<p class="photo__service photo__scissors">Стрижка</p>
+  								<p class="photo__service photo__shaving">Бритьё</p>
+  								<p class="photo__service photo__mustache">Усы</p>
+  							</div>
+  						</figcaption>
+  					</figure>
+  				</div>
+				
+  			</div>
+
+  		</div>
+  	</div>
+  </section>
+  <section class="price">
+  <div class="price__wrapper">
+  	<h1 class="price__header">Прейскурант</h1>
+  	<table class="price__table">
+  		<tr>
+  			<td class="col-1">1</td>
+  			<td class="col-2">Классическая стрижка</td>
+  			<td class="col-3">(с мытьем головы)</td>
+  			<td class="col-4">1 500 руб.</td>
+  		</tr>
+  		<tr>
+  			<td class="col-1">2</td>
+  			<td class="col-2">Современный вариант</td>
+  			<td class="col-3">(с мытьем головы)</td>
+  			<td class="col-4">1 500 руб.</td>
+  		</tr>
+  		<tr>
+  			<td class="col-1">3</td>
+  			<td class="col-2">Индивидуальный подход</td>
+  			<td class="col-3">(с мытьем головы)</td>
+  			<td class="col-4">2 000 руб.</td>
+  		</tr>
+  		<tr>
+  			<td class="col-1">4</td>
+  			<td class="col-2">Бритьё бороды</td>
+  			<td class="col-3">(без мытья)</td>
+  			<td class="col-4">500 руб.</td>
+  		</tr>
+  		<tr>
+  			<td class="col-1">5</td>
+  			<td class="col-2">Бритьё головы</td>
+  			<td class="col-3">(с мытьем головы)</td>
+  			<td class="col-4">1 000 руб.</td>
+  		</tr>
+  	</table>
+  	<p class="price__discount">
+  		С 10:00 до 14:00 скидка 20%
+  	</p>
+  </div>
+  </section>
+
+  <footer class="page-footer">
+  	<div class="page-footer__wrapper">
+  		<div class="page-footer__address">
+  			<b>Барбершоп Бородинский</b>
+  			<p>г.Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
+  			<a href="tel:+78125556666"><b>+7(812)555-66-66</b></a>
+  		</div>
+  		<ul class="page-footer__social">
+  			<li class="page-footer__social-item">
+  				<a href="" class="social__icon social__vk">В Контакте</a>
+  			</li>
+  			<li class="page-footer__social-item">
+  				<a href="" class="social__icon social__f">Фейкбук</a>
+  			</li>
+  			<li class="page-footer__social-item">
+  				<a href="" class="social__icon social__inst">Инстаграм</a>
+  			</li>
+  		</ul>
+  		<div class="page-footer__designed">
+  			<p>Разработано:</p>
+  			<a href="">HTML Academy</a>
+  		</div>
+  	</div>
+  </footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery.3.1.1.min.js"><\/script>')</script>
+  <script src="js/script.min.js"></script>
+
+  <script>
+  	var navMain = document.querySelector('.main-nav');
+  	var navToggle = document.querySelector('.main-nav__toggle');
+
+  	navMain.classList.remove('main-nav--nojs');
+
+  	navToggle.addEventListener('click', function() {
+  		if (navMain.classList.contains('main-nav--closed')) {
+  			navMain.classList.remove('main-nav--closed');
+  			navMain.classList.add('main-nav--opened');
+  		} else {
+  			navMain.classList.add('main-nav--closed');
+  			navMain.classList.remove('main-nav--opened');
+  		}
+  	});
+  </script>
+</body>
+</html>
